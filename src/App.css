@@ -1,22 +1,123 @@
-.App {
-  text-align: center;
+
+/* Login */
+
+.login {
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px grey;
+    font-size: 18px;
+    line-height: 2px;
+  
+}
+.login h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px; 
+    margin-bottom: 30px;   
+
+}
+.login .ant-alert{
+    margin-bottom: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home .ant-layout-content {
+    margin-top: 70px;
+}
+.home .ant-card-cover img {
+    height: 80vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-card {
+    width: 90%;
+    margin: 0 auto;
+}
+.section-card+.section-card {
+    margin-top: 30px;
+}
+.logo {
+    width: 200px;
+    
+}
+.logo h1 {
+    color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.home .ant-menu-item {
+    display: flex !important;   
+    position: absolute !important;
+    right: 10px;
+    top: 12px;
+    color: antiquewhite;   
+    justify-content: space-between;   
+    padding: 3px 16px !important;    
+}
+.home .ant-menu-item .user-name {
+    line-height: 30px !important;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.userInfo_avatar .ant-avatar  {
+    vertical-align: top !important;
+    margin-right: 5px;
+    border: 1px solid wheat;
+    background-color: aqua;
+}
+.userInfo_avatar .ant-avatar .anticon { 
+    margin-right: 0!important;
+    font-size: 16px !important;
+}
+
+/* Comment */
+.ant-card {
+    opacity: 0.8;
+}
+.comment{
+    width: 90% !important;
+    margin: 30px auto;
+}
+.ant-avatar img{
+    background-color: aqua;
+}
+.ant-comment-content {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1 ;
+}
+.inputComment {
+    display: flex;
+    opacity: 0.8;  
+    width: 100%;
+}
+.inputComment .ant-row {
+    width: 100% !important;
+}
+
+.ant-card-head-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.container {
+    background-image: url("./images/phil.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100vh;
+}
+.ant-row {
+    margin: 0 !important;
 }
